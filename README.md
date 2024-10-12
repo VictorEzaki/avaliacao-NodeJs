@@ -2,7 +2,7 @@
 Repositório da avaliação de backend em nodejs
 
 ## EndPoints
-- GET que retorna todas as operações possíveis: localhost:3000/calculadora/operacoes
+- GET que retorna todas as operações possíveis e seus endpoints: localhost:3000/calculadora/operacoes
 - POST que retorna as função somar: localhost:3000/calculadora/soma
 - POST que retorna as função subtrair: localhost:3000/calculadora/sub
 - POST que retorna as função multiplicação: localhost:3000/calculadora/mult
