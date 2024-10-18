@@ -3,16 +3,7 @@ const { describe, it, expect } = require('@jest/globals');
 
 describe("Testando o GET que retorna as operações possíveis: ", () => {
     it('Retorna o GET', () => {
-        const result = {
-            Operacoes: {
-                Soma: "Soma dois números endpoint = /calculadora/soma",
-                Subtrai: "Subtrai dois números endpoint = /calculadora/sub",
-                Multiplica: "Multiplica dois números endpoint = /calculadora/mult",
-                Divide: "Divide dois números endpoint = /calculadora/div",
-                Potencia: "Exibe a potência de um número endpoint = /calculadora/pot",
-                Raiz: "Exibe a raiz quadrada de um número endpoint = /calculadora/pot"
-            }
-        }
+        const result = ServiceCalculadora.Operacoes();
 
         expect(result).toStrictEqual({
             Operacoes: {
